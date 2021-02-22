@@ -1,0 +1,294 @@
+  /* Increase the font size of the heading */
+  .header h1 {
+    font-size: 40px;
+  }
+  .navbar-expand-lg .navbar-collapse{
+    background-color: #337ab7;
+    display: inline;
+    padding: 20px;
+  }
+  .navbar {
+    overflow: hidden;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;  
+    margin-bottom: 0px;  
+    z-index: 2;
+    padding: 0px;
+  
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    float: left; 
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Right-aligned link */
+  .navbar a.right {
+    float: right;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Active/current link */
+  .navbar a.active { 
+    color: white;
+  }
+  
+
+
+  
+  @media only screen and (max-width: 768px) {
+    .row {   
+      flex-direction: column;
+    }
+    
+    
+  }
+  @media only screen and (max-width: 480px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+  
+   
+  /* ..........Meysam Coding  Footer*/
+   
+  * {
+    box-sizing: border-box
+  }
+ 
+  ul {
+    list-style: none
+  }
+  a {
+    text-decoration: none
+  }
+  .register-form{
+    background-color: rgb(145, 145, 145);
+    margin-top: 30px;
+  }
+  .action_page{
+    background-color:  rgb(145, 145, 145);
+  }
+  .flex-rw { 
+    position: relative;
+    bottom: -350px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  /* editing side bar for up coimg events Meysam*/
+  #sideevents{
+    font-weight: bold ;
+  }
+  #events{
+    color: red;
+  }
+  /* ............................... */
+  main {
+    flex: 1 1 auto;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 10em "Oswald", sans-serif;
+    color: rgb(155,155,155);
+    line-height: 1
+  }
+  footer {
+    background: rgb(55,55,55);
+    margin-top: auto;
+    width: 100%
+  }
+  .footer-list-top {
+    width: 33.333%
+  }
+  .footer-list-top > li {
+    text-align: center;
+    padding-bottom: 10px
+  }
+  .footer-list-header {
+    padding: 10px 0 5px 0;
+    color: #fff;
+    font: 2.3vw "Oswald", sans-serif
+  }
+  .footer-list-anchor {
+    font: 1.3em "Open Sans", sans-serif
+  }
+  .footer-social-section {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 5px;
+  }
+  .footer-social-section::after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 10px;
+    width: calc(100% - 20px)
+  }
+  .footer-social-overlap {
+    position: relative;
+    z-index: 2;
+    background: rgb(55,55,55);
+    padding: 0 20px
+  }
+  .footer-social-connect {
+    display: flex;
+    align-items: center;
+    font: 3.5em "Oswald", sans-serif;
+    color: #fff
+  }
+  .footer-social-small {
+    font-size: 0.6em;
+    padding: 0px 20px
+  }
+  .footer-social-overlap > a {
+    font-size: 3em
+  }
+  .footer-social-overlap > a:not(:first-child) {
+    margin-left: 0.38em
+  }
+  .footer-bottom-section {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px
+  }
+  .footer-bottom-section > div:first-child {
+    margin-right: auto
+  }
+  .footer-bottom-wrapper {
+    font-size: 1.5em;
+    color: #fff
+  }
+  .footer-address {
+    display: inline;
+    font-style: normal
+  }
+  .flex-rw {
+    color:#337ab7;
+  }
+  @media only screen and (max-width: 768px) {
+    .row {   
+      flex-direction: column;
+    }
+    .footer-list-header {
+      font-size: 2em
+    }
+    .footer-list-anchor {
+      font-size: 1.1em
+    }
+    .footer-social-connect {
+      font-size: 2.5em
+    }
+    .footer-social-overlap > a {
+      font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+      font-size: 1.3em
+    }
+  }
+  @media only screen and (max-width: 568px) {
+    #imagesidebar{
+      display: none;
+    }
+    main {
+      font-size: 5em
+    }
+    .footer-list-top {
+      width: 100%
+    }
+    .footer-list-header {
+      font-size: 3em;
+    }
+    .footer-list-anchor {
+      font-size: 1.5em
+    }
+    .footer-social-section {
+      justify-content: center
+    }
+    .footer-social-section::after {
+      top: 25%
+    }
+    .footer-social-connect {
+      margin-bottom: 10px;
+      padding: 0 10px
+    }
+    .footer-social-overlap {
+      display: flex;
+      justify-content: center;
+    }
+    .footer-social-icons-wrapper {
+      width: 100%;
+      padding: 0
+    }
+    .footer-social-overlap > a:not(:first-child) {
+      margin-left: 20px;
+    }
+    .footer-bottom-section {
+      padding: 0 5px 10px 5px
+    }
+    .footer-bottom-wrapper {
+      text-align: center;
+      width: 100%;
+      margin-top: 10px
+    }
+  }
+  @media only screen and (max-width: 480px) {
+   
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+    .footer-social-overlap > a {
+      margin: auto
+    }
+    .footer-social-overlap > a:not(:first-child) {
+      margin-left: 0;
+    }
+    .footer-bottom-rights {
+      display: block
+    }
+  }
+  @media only screen and (max-width: 320px) {
+    .footer-list-header {
+      font-size: 2.2em
+    }
+    .footer-list-anchor {
+      font-size: 1.2em
+    }
+    .footer-social-connect {
+      font-size: 2.4em
+    }
+    .footer-social-overlap > a {
+      font-size: 2.24em
+    }
+    .footer-bottom-wrapper {
+      font-size: 1.3em
+    }
+  }
+  
+ 
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
