@@ -21,7 +21,7 @@ you can run  nodemon app.js<br />
 Localhost: 3000<br />
 <br />
 What is website for:<br />
-Website just simple design for sign and login page with node.js and mysql database 
+This website is simply designed for user interface. It includes register and login pages developed with node.js and mysql database. 
 
 Isetup MySQL datebase on PHPmyAdmin ,XAMPP<br />
 
