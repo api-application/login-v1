@@ -13,7 +13,7 @@ dotenv.config({path: './.env'});
 app.use(express.json());
 
 
-
+var hbsContent = {name: '', loggedin: false, title: "You are not logged in today", body: "Hello World"}; 
 const port = 3000;
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 app.use(express.static(path.join(__dirname, 'public')));

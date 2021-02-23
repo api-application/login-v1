@@ -22,7 +22,7 @@ function redirectIfLoggedIn(req, res, next) {
     if (req.user) return res.redirect('/profile');
     return next();
   }
-
+ 
 router.get('/', (req, res, next) => {
 
     res.render('home', { title: 'Home' });

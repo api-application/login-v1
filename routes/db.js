@@ -54,7 +54,8 @@ router.post("/register", urlencodedParser, function (req, res, next) {
       if (error) {
         console.log(error)
       } else {
-        res.render("layouts/reg_success", { data: req.body })
+        req.session.user = user.dataValues;
+        res.render("layouts/reg_success", )
       }
 
     })
