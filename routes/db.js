@@ -13,10 +13,10 @@ router.get('/register', (req, res) => {
   })
 })
 var connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'userdb'
+  host: 'freedb.tech',
+  user: 'freedbtech_control',
+  password: 'Ola502837571',
+  database: 'freedbtech_control'
 });
 var urlencodedParser = bodyParser.urlencoded({ extended: false })
 
